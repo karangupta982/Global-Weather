@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "export PATH=/opt/render/project/src/node_modules/.bin:$PATH && live-server",
-    "build": "echo 'No build process required for this app'"
+    "build": "npm install"
   },
   "author": "",
   "license": "ISC",
