@@ -9,5 +9,8 @@
     "build": "echo 'No build process required for this app'"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
 }
