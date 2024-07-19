@@ -4,10 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npx live-server",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "mkdir dist && cp index.html dist/ && cp -r css dist/ && cp -r js dist/"
-  },
+  "start": "npx live-server",
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "build": "mkdir dist && cp index.html dist/ && cp -r css dist/ && cp -r js dist/",
+  "predeploy": "npm run build"
+},
   "author": "",
   "license": "ISC",
   "devDependencies": {

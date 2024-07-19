@@ -1,3 +1,5 @@
+// import path from "path";
+
 const userTab = document.querySelector("[data-userWeather]");
 const searchTab = document.querySelector("[data-searchWeather]");
 const userContainer = document.querySelector(".weather-container");
@@ -9,10 +11,13 @@ const userInfoContainer = document.querySelector(".user-info-container");
 
 //initially vairables need????
 
+
+
 let oldTab = userTab;
 const API_KEY = "d1845658f92b31c64bd94f06f7188c9c";
 oldTab.classList.add("current-tab");
 getfromSessionStorage();
+
 
 function switchTab(newTab) {
     if(newTab != oldTab) {
