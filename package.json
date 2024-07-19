@@ -4,13 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "npx live-server",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "export PATH=/opt/render/project/src/node_modules/.bin:$PATH && node_modules/.bin/live-server",
     "build": "npm install"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "live-server": "^1.2.2"
   }
 }
